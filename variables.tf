@@ -17,5 +17,5 @@ variable "proxmox_password" {
 variable "proxmox_tls_insecure" {
   description = "Skip TLS verification for Proxmox API"
   type        = bool
-  default     = true
+  default     = false
 }
